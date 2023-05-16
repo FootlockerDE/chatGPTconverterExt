@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "New",
+    "description": "Enable focus mode on Chrome's official Extensions and Chrome Web Store documentation.",
+    "version": "0.0.1",
+    "action": {
+     "default_title": "Click Me"
+      },
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+    "service_worker": "background.js"
+  }
+}
+   
+
+
